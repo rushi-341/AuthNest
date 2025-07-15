@@ -1,6 +1,7 @@
 let jwtToken = ''
 
-const API = 'http://localhost:8080/api/users'
+// 👇 Replace this with your actual backend deployment URL
+const API = 'https://authnest-backend.onrender.com/api/users'
 
 async function registerUser() {
   const body = {
