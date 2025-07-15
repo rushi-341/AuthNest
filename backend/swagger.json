@@ -1,0 +1,21 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "User Management API",
+      "version": "1.0.0",
+      "description": "Simple API for managing users"
+    },
+    "paths": {
+      "/api/users": {
+        "get": {
+          "summary": "Get all users",
+          "responses": {
+            "200": {
+              "description": "A list of users"
+            }
+          }
+        }
+      }
+    }
+  }
+  
